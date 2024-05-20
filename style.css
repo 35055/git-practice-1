@@ -22,9 +22,69 @@ a{
     background: url(images/headerBg.png) no-repeat center bottom /cover;
     height: 100vh;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 .main{
     background: black;
     height: 100vh;
 }
+
+.header__nav-list{
+    display: flex;
+    column-gap: 31px;
+}
+
+.header__nav-list li a{
+    color: white;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__socials{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.header__content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header__content-title{
+    font-size: 74px;
+    line-height: 84px;
+    font-weight: 700;
+    max-width: 672px;
+    width: 100%;
+}
+
+.header__content-text{
+    font-size: 28px;
+    line-height: 40px;
+    max-width: 766px;
+    width: 100%;
+    margin-top: 17px;
+    margin-bottom: 70px;
+}
+
+.btn{
+    background: rgba(32, 145, 249, 1);
+    color: white;
+    padding: 15px 45px;
+    border-radius: 15px;
+}
+
